@@ -1,0 +1,173 @@
+var sundata =
+{
+    "nameDesc": "Immunoglobulins [IGs], e.g. monoclonal or polyclonal antibodies",
+    "children": [
+        {
+            "patentCount": "592",
+            "nameDesc": "Immunoglobulins [IGs], e.g. monoclonal or polyclonal antibodies",
+            "name": "C07K16/18",
+            "patientCount": "274",
+            "childDesc": "against material from animals or humans",
+            "children": [
+                {
+                    "patentCount": "411",
+                    "nameDesc": "against material from animals or humans",
+                    "name": "C07K16/28",
+                    "patientCount": "221",
+                    "childDesc": "against receptors, cell surface antigens or cell surface determinants",
+                    "children": [
+                        {
+                            "patentCount": "100",
+                            "nameDesc": "against receptors, cell surface antigens or cell surface determinants",
+                            "name": "C07K16/2803",
+                            "patientCount": "95",
+                            "childDesc": "against the immunoglobulin superfamily",
+                            "children": [
+                                {
+                                    "patentCount": "19",
+                                    "nameDesc": "against the immunoglobulin superfamily",
+                                    "name": "C07K16/2809",
+                                    "patientCount": "28",
+                                    "childDesc": "against the T-cell receptor (TcR)-CD3 complex",
+                                    "size": 60
+                                }
+                            ],
+                            "size": 383
+                        },
+                        {
+                            "patentCount": "101",
+                            "nameDesc": "against receptors, cell surface antigens or cell surface determinants",
+                            "name": "C07K16/30",
+                            "patientCount": "79",
+                            "childDesc": "from tumour cells",
+                            "children": [
+                                {
+                                    "patentCount": "19",
+                                    "nameDesc": "from tumour cells",
+                                    "name": "C07K16/3069",
+                                    "patientCount": "27",
+                                    "childDesc": "Reproductive system, e.g. ovaria, uterus, testes, prostate",
+                                    "size": 72
+                                },
+                                {
+                                    "patentCount": "8",
+                                    "nameDesc": "from tumour cells",
+                                    "name": "C07K16/303",
+                                    "patientCount": "20",
+                                    "childDesc": "Liver or Pancreas",
+                                    "size": 38
+                                }
+                            ],
+                            "size": 358
+                        },
+
+                        {
+                            "patentCount": "16",
+                            "nameDesc": "against receptors, cell surface antigens or cell surface determinants",
+                            "name": "C07K16/2869",
+                            "patientCount": "35",
+                            "childDesc": "against hormone receptors",
+                            "size": 60
+                        },
+
+                        {
+                            "patentCount": "11",
+                            "nameDesc": "against receptors, cell surface antigens or cell surface determinants",
+                            "name": "C07K16/2851",
+                            "patientCount": "22",
+                            "childDesc": "against the lectin superfamily, e.g. CD23, CD72",
+                            "children": [
+                                {
+                                    "patentCount": "2",
+                                    "nameDesc": "against the lectin superfamily, e.g. CD23, CD72",
+                                    "name": "C07K16/2854",
+                                    "patientCount": "7",
+                                    "childDesc": "against selectins, e.g. CD62",
+                                    "size": 7
+                                }
+                            ],
+                            "size": 41
+                        },
+                        {
+                            "patentCount": "3",
+                            "nameDesc": "against receptors, cell surface antigens or cell surface determinants",
+                            "name": "C07K16/2884",
+                            "patientCount": "9",
+                            "childDesc": "against CD44",
+                            "size": 13
+                        },
+                        {
+                            "patentCount": "2",
+                            "nameDesc": "against receptors, cell surface antigens or cell surface determinants",
+                            "name": "C07K16/2857",
+                            "patientCount": "3",
+                            "childDesc": "against nuclear receptors, e.g. retinoic acid receptor (RAR), RXR, orphan receptor",
+                            "size": 3
+                        }
+                        ],
+                    "size": 1919
+                },
+                {
+                    "patentCount": "91",
+                    "nameDesc": "against material from animals or humans",
+                    "name": "C07K16/24",
+                    "patientCount": "86",
+                    "childDesc": "against cytokines, lymphokines or interferons",
+                    "children": [
+                        {
+                            "patentCount": "50",
+                            "nameDesc": "against cytokines, lymphokines or interferons",
+                            "name": "C07K16/244",
+                            "patientCount": "63",
+                            "childDesc": "Interleukins (IL)",
+                            "children": [
+                                {
+                                    "patentCount": "14",
+                                    "nameDesc": "Interleukins (IL)",
+                                    "name": "C07K16/248",
+                                    "patientCount": "28",
+                                    "childDesc": "IL-6",
+                                    "size": 44
+                                },
+
+                                {
+                                    "patentCount": "4",
+                                    "nameDesc": "Interleukins (IL)",
+                                    "name": "C07K16/247",
+                                    "patientCount": "9",
+                                    "childDesc": "IL-4",
+                                    "size": 9
+                                }
+                            ],
+                            "size": 171
+                        }
+                    ],
+                    "size": 309
+                },
+                    {
+                    "patentCount": "4",
+                    "nameDesc": "against material from animals or humans",
+                    "name": "C07K16/20",
+                    "patientCount": "4",
+                    "childDesc": "from protozoa",
+                    "children": [
+                        {
+                            "patentCount": "1",
+                            "nameDesc": "from protozoa",
+                            "name": "C07K16/205",
+                            "patientCount": "1",
+                            "childDesc": "Plasmodium",
+                            "size": 1
+                        }
+                    ],
+                    "size": 4
+                }
+            ],
+            "size": 2952
+        }
+
+    ],
+    "name": "C07K16/00",
+    "size": 9999
+}
+module.export = sundata;

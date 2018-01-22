@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url(../../assets/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.spriteBmc {
+    width: 318px;
+    height: 159px;
+    background-position: -5px -5px;
+}
+
+.spriteJiraservicedesk {
+    width: 515px;
+    height: 98px;
+    background-position: -5px -174px;
+}
+
+.spritePagerduty {
+    width: 513px;
+    height: 98px;
+    background-position: -5px -282px;
+}
+
+.spriteServicenow {
+    width: 160px;
+    height: 56px;
+    background-position: -333px -45px;
+}
+
+.spriteSlack {
+    width: 420px;
+    height: 120px;
+    background-position: -503px -5px;
+}

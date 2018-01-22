@@ -1,0 +1,73 @@
+module.exports = {
+  TEST_STATUS: {
+    ERROR:'Error',
+    RUNNING : 'Running',
+    COMPLETED : 'Completed',
+    ABORTED: 'Aborted',
+    NOT_TESTED:'Not Tested',
+    NOT_DISCOVERED: 'Not Discovered',
+    DISCOVERED: 'Discovered',
+    CONTENT_MISSING:'Content unavailable',
+    CONTENT_ERROR:'Bad content',
+    LICENSE_ERROR: 'License error',
+    OS_NOT_SUPPORTED: 'Unsupported OS',
+    ACCESS_ERROR: 'Access error',
+    CREDENTIALS_MISSING: 'Missing Credentials',
+    CREDENTIALS_INVALID: 'Invalid credentials',
+    CREDENTIALS_OS_TYPE_MISMATCHED: 'Credentials OS type mismatched',
+    PORT_NOT_OPEN: 'Port not open',
+    PORT_22_NOT_OPEN: 'Port 22 not open',
+    PORT_5985_NOT_OPEN: 'Port 5985 not open',
+    NEITHER_PORT_5985_NOR_PORT_22_OPEN: 'Neither Port 5985 Nor Port 22 Are Open',
+    BLOCKED_BY_FIREWALL: 'Blocked by Firewall',
+    SUDO_PASSWORD_ERROR: 'Sudo password error',
+    ASSET_NOT_SUPPORTED: 'Asset not supported',
+    CONTENT_MISSING: 'Content missing',
+    CONTENT_ERROR: 'Content error',
+    LICENSE_ERROR: 'License file for jOVAL not found or expired',
+    OS_NOT_SUPPORTED: 'OS not supported',
+    ASSET_ERROR: 'Insufficient privileges',
+    PENDING: 'Pending',
+    DISCOVERING: 'Discovering',
+    FAILED: 'Failed',
+    SCANNING: 'Scanning',
+    SCAN_COMPLETED : 'Scan completed',
+    SCHEDULED: 'Scheduled',
+    CONNECTION_ERROR: 'Connection Error',
+    IO_ERROR: 'I/O Error',
+    STOPPED: 'Stopped',
+    TERMINATED: 'Terminated'
+  },
+  ASSET_TYPE: {
+  	ONPREM: 'On-Prem',
+  	AWS: 'AWS',
+    GOOGLE: "Google",
+    AZURE: "Azure",
+    Hybrid:'Hybrid'
+  },
+  SEVERITY: {
+    NA: 'N/A',
+    LOW: 'Low',
+    MEDIUM: 'Medium',
+    HIGH: 'High',
+    INFO: 'Info',
+    UNKNOWN: 'Unknown',
+    UNIMPORTANT:'Unimportant',
+    NOT_YET_ASSIGNED:'Not yet assigned'
+  },
+  STATE: {
+    Pass: 'Pass',
+    Fail: 'Fail',
+    Not_Checked: 'Not Evaluated',
+    Not_Selected: 'Not Selected',
+    Not_Applicable: 'N/A',
+    Error: 'Error',
+    Unknown: 'Unknown',
+    Informational: 'Informational',
+    Other: 'Other',
+    Suppressed: 'Suppressed'
+  },
+  ROLES: {
+    ROLE_ADMIN: "Admin"
+  }
+}

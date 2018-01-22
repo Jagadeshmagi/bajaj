@@ -1,0 +1,52 @@
+.numberCircle {
+  border-radius: 50%;
+
+  width: 25px;
+  height: 25px;
+  padding: 2px;
+
+  background: red;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+
+  position:relative;
+  top: -15px;
+  left: -5px;
+
+  font: 10px Arial, sans-serif;
+}
+
+.progress {
+  height: 8px;
+  width: 150px;
+}
+/*
+.popover {
+  max-width: 100%;
+  border-radius: 0;
+  padding: 0;
+}
+
+.popover-content {
+  max-width: 100%;
+  border-radius: 0;
+  padding: 0;
+}*/
+
+/*.popoverNotification {
+    padding: 0px 14px;
+}*/
+.toolTipStyle:after {
+ content: '';
+ display: block;
+ position: absolute;
+ top: -5px;
+ left:48%;
+ transform: translateX(-50%);
+ width: 12px;
+ height: 12px;
+ background: #00c484 ;
+ -moz-transform:rotate(-45deg);
+ -webkit-transform:rotate(-45deg);
+}

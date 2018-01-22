@@ -1,0 +1,116 @@
+.modal-content{
+    -webkit-border-radius: 0px ;
+    -moz-border-radius: 0px ;
+    border-radius: 0px;
+}
+
+.mytablepol {
+  width: 100%;
+  margin-top: 1px;
+  margin-left: 0px ;
+  background-color: white;
+  box-shadow: -0px -0px -0px rgba(232,232,232,1);
+  border-collapse: collapse;
+}
+
+.mytablepol thead tr {
+  height: 4em;
+}
+
+.mytablepol tbody tr td, th{
+  padding: 1em;
+  margin-right: 20;
+}
+
+.mytablepol tbody tr td{
+  color: grey;
+}
+
+.mytablepol tbody tr:nth-child(odd) {
+   background-color: #EDF2F8;
+}
+
+.mytablepol tbody tr {
+  height: 4em;
+}
+
+input[type="checkbox"] + label::before {
+    content: '\a0'; /* non-break space */
+    display: inline-block;
+    vertical-align: .3em;
+    width: 22px;
+    height: 22px;
+    line-height: 1em;
+    margin-right: .2em;
+    background: white;
+    text-indent: .15em;
+    border: 1px solid lightblue;
+}
+
+input[type="checkbox"]:checked + label::before {
+    background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAYAAACgR9dcAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADBSURBVCiRlc+9DsFgFIfx5/RlZFd30CugsXMJhNVdGDo03EaF6b0CF6CNXSKp1WjCKHoMIjT1+Z/P70mO8O+sNbjpBJWj/A3r2xlKD9j9jvPwCLQFDRySsod/3iBB9iukNVo5xGaI6prYTLHWfIGHOwRwUF0BJ5ABbhrlAtYaaun8CXbuEOD2czxuotkCqIJazpc+e09x0whk8Ao+MEAS+mQsgAroHKWESPcdzONCAD7BIs4Hsk/w/ZLQZxk2vp1dAWgxXzlAuO8gAAAAAElFTkSuQmCC') CENTER CENTER NO-REPEAT;
+    color: #00C484;
+    border: 1px solid #4C58A4;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0,0,0,0);
+}
+input[type="checkbox"]:focus + label::before {
+    border: 1px solid #4C58A4;
+}
+
+  .verticalLine {
+    border-right: solid #D1DAE8;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+.scanModalDialogClass{
+  width:1200px;
+  margin-top:50px;
+}
+
+.deleteDialogClass{
+   width:600px;
+   margin-top: 10px;
+   margin-right:20px;
+   border-radius: 0px;
+}
+
+.infoCircle {
+   background: white;
+   border-radius: 50%;
+   height: 15px;
+   width: 15px;
+   font-size: 9px;
+   font-weight: 'bold';
+   border: 2px solid  #4C58A4;
+   text-align: center;
+}
+
+div ::-webkit-scrollbar {
+  width: 9px;
+  height: 10px;
+}
+
+div ::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px #c2c2c2 ; */
+  /*border-radius: 10px;*/
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height: 1px;
+  background-color: #c2c2c2 ;
+}
+::-webkit-scrollbar-thumb:hover {
+background-color: #7d7d7d ;
+-webkit-box-shadow: inset 0 0 6px #c2c2c2 ;
+}
+
+/*.editbutton a:focus{
+outline: 6px auto -webkit-focus-ring-color;
+}*/

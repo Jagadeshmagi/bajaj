@@ -1,0 +1,8 @@
+.btnPrimary, .btnPrimary:hover, .btnPrimary:active, .btnPrimary:visited {
+    background-color: #FFFFFF;
+    color: #4C58A4;
+    font-weight: bold;
+}
+.btnPrimary:hover {
+  background-color: #00C484;
+}

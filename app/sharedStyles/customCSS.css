@@ -1,0 +1,645 @@
+.datePick .input-group{
+	width:150px;
+	height:34px;
+	border-radius:0px;
+	border:1px solid #4C58A4;
+	margin-top:4px;
+}
+.datePick .input-group .form-control{
+	border:0;
+}
+
+.datePick .input-group .input-group-addon {
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #4C58A4;
+	text-align: center;
+	background: #ffffff;
+	border-radius: 0px;
+	border:0;
+}
+
+.datePick.has-error .input-group{
+	border:1px solid #ff444d;
+}
+
+.search .input-group{
+	width:500px;
+	height:34px;
+	border-radius:0px;
+	border:1px solid #CCCCCC;
+}
+.search .input-group .form-control{
+	border:0;
+}
+.search .input-group .input-group-addon {
+	color: #4C58A4;
+    text-align: center;
+	background-color: #ffffff;
+	border-radius: 0px;
+	border:0;
+}
+
+.searches .input-group{
+	width:300px;
+	height:34px;
+	border-radius:0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-top: 0px;
+	background-color: #ffffff;
+	border:1px solid #CCCCCC;
+}
+.searches .input-group .form-control{
+	border:0;
+}
+.searches .input-group .input-group-addon {
+	color: #4C58A4;
+  text-align: center;
+	background-color: #ffffff;
+	border-radius: 0px;
+	border:0;
+}
+
+.searches .Select--multi .Select-value {
+  background-color: #ebf5ff;
+  background-color: rgba(0, 126, 255, 0.08);
+  border-radius: 2px;
+  border: 1px solid #c2e0ff;
+  border: 1px solid rgba(0, 126, 255, 0.24);
+  color: #007eff;
+  display: inline-block;
+  font-size: 1.1em;
+  line-height: 1.4;
+  margin-left: 5px;
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+.searches .Select-menu-outer {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #fff;
+	/*background-color: blue;*/
+  border: 1px solid #ccc;
+  border-top-color: #e6e6e6;
+	/*border-top-color: blue;*/
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-top: -1px;
+	/*height:600px;*/
+  /*max-height: 200px;*/
+  position: absolute;
+  top: 100%;
+  /*width: 326px;*/
+	height: auto;
+  z-index: 10;
+	/*margin-left: 200px;*/
+	max-height: 500px;
+  z-index:9999
+
+  /*-webkit-overflow-scrolling: touch;*/
+}
+.searches .Select-menu {
+	/*max-height: 198px;*/
+  max-height: 498px;
+  /*overflow-y: auto;*/
+	/*height: auto;*/
+	/*background-color: blue;*/
+
+}
+
+.searches .Select-option {
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #666666;
+  cursor: pointer;
+  display: block;
+  padding: 8px 10px;
+}
+.searches .Select-option:last-child {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.searches .Select-option.is-selected {
+  background-color: #f5faff;
+  /* Fallback color for IE 8 */
+  background-color: rgba(0, 126, 255, 0.04);
+  color: #333;
+}
+.searches .Select-option.is-focused {
+  background-color: #ebf5ff;
+  /* Fallback color for IE 8 */
+  background-color: rgba(0, 126, 255, 0.08);
+  color: #333;
+}
+.searches .Select-option.is-disabled {
+  color: #cccccc;
+  cursor: default;
+}
+
+
+
+
+ .modal-backdrop {
+   background-color: #4C58A4 !important;
+}
+
+.modal-backdrop.in {
+    opacity: 0.8 ;
+}
+
+/*++++++++++ modal slide changes(left to right-->PolicyPack) ++++++++++++*/
+.modal.fade:not(.in).right .modal-dialog {
+-webkit-transform: translate3d(25%, 0, 0);
+	transform: translate3d(25%, 0, 0);
+}
+
+#devicePopover{
+	z-index: 100 !important;
+}
+
+.tooltip {
+	padding: 3px;
+	border: 1px solid;
+	border-radius: 0px;
+	background-color: white;
+	opacity: 0.8;
+	justify-content: center;
+	align-items: center;
+	font-family: "Source Sans Pro";
+	font-size: 15px;
+}
+
+/*.Select--multi .Select-clear-zone {
+  width: 17px;
+}
+.Select--multi .Select-input {
+  vertical-align: middle;
+  margin-left: 10px;
+  padding: 0;
+}
+.Select--multi.has-value .Select-input {
+  margin-left: 5px;
+}
+
+.Select--multi.is-disabled .Select-item {
+  background-color: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  color: #888;
+}
+.Select--multi.is-disabled .Select-item-icon {
+  cursor: not-allowed;
+  border-right: 1px solid #d9d9d9;
+}
+.Select--multi.is-disabled .Select-item-icon:hover,
+.Select--multi.is-disabled .Select-item-icon:focus,
+.Select--multi.is-disabled .Select-item-icon:active {
+  background-color: #f2f2f2;
+}
+.Select-value {
+  color: #aaa;
+  left: 0;
+  padding: 8px 52px 8px 10px;
+  position: absolute;
+  right: -15px;
+  top: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.has-value > .Select-control > .Select-value {
+  color: #333;
+
+
+}*/
+
+
+/* ++++++++++ stacked horizontal bar styles for d3 +++++++++ */
+.axis path, .axis line {
+    fill: none;
+    /*stroke: black;*/
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+#tooltip {
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    display: none;
+}
+#tooltip.hidden {
+    display: none;
+}
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+input.chkAll[type="checkbox"]:checked + label::before {
+    background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAIAAAAmzuBxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAWSURBVChTYxC5NAs/GlWBiihXcWkWAF5ctYGTs25yAAAAAElFTkSuQmCC') CENTER CENTER NO-REPEAT;
+    color: #00C484;
+    border: 1px solid #4C58A4;
+}
+
+input.chkAll[type="checkbox"]:indeterminate + label::before {
+    background:url('data:image/png;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAALAAsDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD806KKK/ug+bP/2Q==') CENTER CENTER NO-REPEAT;
+    color: red;
+    border: 1px solid #4C58A4;
+}
+
+input.chkAll[type="checkbox"] {
+    position: absolute;
+    clip: rect(0,0,0,0);
+}
+input.chkAll[type="checkbox"]:focus + label::before {
+    border: 1px solid #4C58A4;
+}
+input[type=radio]:focus {
+  outline: none !important;
+  outline-offset: 0;
+}
+
+/*React-tab component css*/
+.react-tabs [role=tablist]{
+  border-bottom: 1px solid #e8e8e8;
+}
+.react-tabs [role=tab][aria-selected=true]{
+  border-color: #e8e8e8;
+  color: #4c58a4;
+  border-top: 3px solid #4c58a4;
+}
+
+.react-tabs [role=tab][aria-disabled=true]{
+  color: hsl(208, 56%, 46%);
+}
+
+.react-tabs [role=tab]:focus {
+  border-color: #e8e8e8;
+}
+
+/*Calender close Button*/
+
+.scheduleInfoMain .input-group-addon:last-child{
+  display: none;
+}
+.scheduleInfoMain .input-group {
+  border: 1px solid rgb(90, 122, 191);
+}
+svg:not(:root) {
+  overflow: visible;
+}
+
+.myForm {
+  width: 340px;
+  position: absolute;
+  
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+/*@media (max-width: 500px) {
+  .myForm {
+    min-width: 90%;
+  }
+}*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 164px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+.custom_tooltip_input
+{
+  background-color: white !important;
+  color: #999 !important;
+  border: 2px solid #999 !important;
+  min-width: 200px;
+  margin-bottom: 10px;
+  opacity: 1 !important;
+  max-width: 350px;
+  padding: 5 !important;
+    font-size: 15px !important;
+
+}
+.custom_tooltip_input:after
+{
+  border-right-color: transparent !important; 
+
+}
+.Select-placeholder{
+  color: black !important;
+  font-family: Source Sans Pro;
+  opacity: 0.55;
+  font-size: 14px;
+  padding-right: 22px !important
+}
+
+.popover.right{
+  border: 1px solid #d2d2d3 !important
+}
+
+.popover-content {
+    padding: 8px 2px 9px 12px !important;
+}
+
+
+/*.Select-control{
+  width: 400px !important
+}*/
+.is-open > .Select-control{
+  border-color: #4C58A4 !important;
+}
+.Select-control:hover{
+  box-shadow:none !important;
+}
+.is-focused:not(.is-open) > .Select-control{
+  border-color: #4C58A4 !important;
+  box-shadow:none !important;  
+}
+
+
+/*Dropdown used in Filters*/
+.dropdownFilter .Select-control{
+  width: 170px !important;
+}
+.dropdownFilter .Select-menu-outer{
+  width: 170px !important;
+  border:1px solid #4C58A4 !important;
+  border-radius: 0px !important;
+}
+.dropdownFilter .Select-option{
+  white-space: nowrap !important;
+  width: 166px !important;
+  margin-left: 1px !important;
+  overflow: hidden !important;
+  padding: 3px 10px !important;
+  text-overflow: ellipsis!important;
+}
+
+/*Dropdown used in scheduleTests*/
+.dropdownST .Select-control{
+  width: 148px !important;
+  height: 34px !important;
+}
+.dropdownST .Select-menu-outer{
+  width: 148px !important;
+  border:1px solid #4C58A4 !important;
+  border-radius: 0px !important;
+}
+.dropdownST .Select-option{
+  white-space: nowrap !important;
+  width: 144px !important;
+  overflow: hidden !important;
+  padding: 3px 10px !important;
+  text-overflow: ellipsis!important;
+}
+
+
+/*Dropdown used in Filter*/
+.dropdownTimeFilter .Select-control{
+  width: 100px !important;
+  padding-right: 10px !important
+}
+.dropdownTimeFilter .Select-menu-outer{
+  width: 100px !important;
+  border:1px solid #4C58A4 !important;
+  border-radius: 0px !important;
+}
+.dropdownTimeFilter .Select-option{
+ padding: 3px 10px !important;
+}
+
+/*Dropdown used in Forms*/
+.dropdownForm .Select-control{
+  width: 326px !important;
+}
+.dropdownForm .Select-menu-outer{
+  width: 326px !important;
+  border:1px solid #4C58A4 !important;
+  border-radius: 0px !important;
+  font-size: 15px !important
+}
+.dropdownForm .Select-option{
+  padding: 3px 10px !important;
+}
+
+.dropdownFormValid .Select-control{
+  width: 326px !important;
+  border: none !important
+}
+.dropdownFormValid .Select-menu-outer{
+  width: 328px !important;
+  margin-top: 1px !important;
+  border-right:1px solid #4C58A4 !important;
+  border-bottom:1px solid #4C58A4 !important;
+  border-left:1px solid #4C58A4 !important;
+  border-radius: 0px !important;
+  font-size: 15px !important;
+  margin-left:-1px !important;
+}
+.dropdownFormValid .Select-option{
+  padding: 3px 10px !important;
+}
+
+
+.has-value .Select-control .Select-placeholder{
+  color: #4C58A4 !important;
+  font-size:16px !important;
+  opacity: 1 !important;
+}
+/*Dashboard TimeZone*/
+.dropdownTimeZone .Select-control{
+  width: 100px !important;
+  border:1px solid #4C58A4 !important;
+}
+.dropdownTimeZone .Select-menu-outer{
+  width: 100px !important;
+  border:1px solid #4C58A4 !important;
+  border-radius: 0px !important;
+}
+.dropdownTimeZone .Select-option{
+ padding: 3px 10px !important;
+}
+
+/*Dashboard Questions*/
+
+.dropdownQuestions .Select-control{
+  width: 500px !important; 
+  border-radius: 0 !important 
+}
+.dropdownQuestions .Select-menu-outer{
+  width: 500px !important;
+  border:thin solid #4C58A4 !important;
+  border-radius: 0 !important
+}
+.dropdownQuestions .Select-option{
+ padding: 3px 10px !important;
+}
+/*Dashboard LoadAmount*/
+
+.dropdownLoadAmount .Select-control{
+  width: 60px !important; 
+  border-radius: 0 !important 
+}
+.dropdownLoadAmount .Select-menu-outer{
+  width: 60px !important;
+  border:thin solid #4C58A4 !important;
+  border-radius: 0 !important
+}
+
+/*AddCloud Instructions style*/
+.addCloudIns{
+  min-height: 450px;
+  padding-top: 65px;
+  padding-bottom: 35px;
+}
+.monitorIns{
+  position: fixed;
+  bottom: 15px;
+  padding-top: 20px;
+}
+@media (max-width: 799px){
+  .addCloudIns{
+    min-height: 0px;
+    padding-top: 0px
+  }
+  .monitorIns{
+    position: static;
+    bottom: 0
+  }
+}
+
+textarea::placeholder{
+  color:#999;
+}
+
+#GroupResourceTable div.Select-control
+{
+  width:1132px !important
+}
+/*
+
+.alertModal{
+  position: absolute;
+  padding: 10px 20px 30px;
+  min-width: 408px;
+  top: -230px;
+  left:250px;
+  z-index: 99999;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  background-color: #fff;  
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0px;
+  outline: 0;
+  background-clip: padding-box;
+}
+.modalTitle{
+    margin-top: 5px;
+    padding-left: 15px;
+    width: 80%;
+    font-size: 19px;
+    font-weight: 600px;
+}
+.modalCloseDay{
+  width: 20%;
+  font-size: 28px;
+  text-align: right;
+  padding-right: 20px;
+  cursor:pointer; 
+  text-decoration: none;
+}
+.outsideWrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+   background-color: #4c58a4;
+  opacity: 0.9;
+   z-index: 9999;
+}
+*/
+
+
+@media (width:950px){
+
+/*#complianceSummary{
+  width: 1050px
+}*/
+}
+
+.top25Wrapper{
+  margin: 20px 33px 0 0;
+}
+.top25Wrapper .odd{
+  background: hsl(213, 44%, 97%)
+}
+.odd, .even{
+  padding: 15px 10px 15px 30px;
+}
+.headingDiv{
+  padding: 10px;
+  border-bottom: 1px solid #d7d7d7;
+  margin: 16px 32px 0 0px;
+  border-top: 2px solid #d7d7d7;
+}
+
+.tableWrapper .public_fixedDataTable_main{
+  margin: 0 auto !important;
+}
+/*.tableWrapper .fixedDataTableCellLayout_wrap3{
+  text-align: center;
+}*/
+.tableWrapper .public_fixedDataTableCell_cellContent{
+  padding-left: 20px
+}
+
+.top25Wrapper .row, .top25Wrapper .col{
+  margin: 0
+}

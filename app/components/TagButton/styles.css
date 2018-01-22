@@ -1,0 +1,35 @@
+.hmenu {
+  font-size: 20px;
+  font-weight: semi-bold;
+  border-bottom: 2px solid DarkGrey;
+  padding: 0 0 0 0;
+}
+
+.hmenu ul{
+  margin: 0px;
+  padding: 0 0 0 0;
+}
+
+.hmenu li{
+  display: inline;
+  padding: 20px;
+}
+
+.hmenu li a{
+    text-decoration: none;
+    text-align: left;
+}
+
+.hmenu li a:hover {
+  color: #00C484;
+}
+
+.hmenu li a:active {
+  color: #4C58A4;
+  border-bottom: 4px solid #4C58A4;
+}
+
+.active {
+  color: #4C58A4;
+  border-bottom: 4px solid #4C58A4;
+}
